@@ -3,7 +3,7 @@ requires = ["hatchling","opencv-python", "numpy", "matplotlib"]
 build-backend = "hatchling.build"
 [project]
 name = "pyimg_process"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Mikel Agirrebeitia", email="mikel.agirrebeitia@alumni.mondragon.edu" },
   { name="Jon Amelibia", email="jon.amelibia@alumni.mondragon.edu" },

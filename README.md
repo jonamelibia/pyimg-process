@@ -20,7 +20,7 @@ Here are some of the implemented features:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyimage.
 
 ```bash
-pip install pyimage
+pip install pyimg-process
 ```
 
 ## Usage
