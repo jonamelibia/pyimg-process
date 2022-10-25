@@ -12,7 +12,11 @@ class Read():
         file_path = os.path.join(path, filename)
         self.img = cv2.imread(file_path)
 
-        return self.img
+        if self.img is None:
+            raise Exception("Sorry, image not found")
+
+        else:
+            return self.img
 
     def write_image(self, filename, img, same_path=True, **kwargs):
         if same_path:
