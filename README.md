@@ -34,12 +34,17 @@ img = pyimage.Methods.read_image('path','image')
 # converts img to grayscale
 gray = pyimage.Methods.grayscale(img)
 
+# sharpen img with a 100x100 kernel
+sharp = pyimage.Methods.sharpen(img, 100)
+
 # displays both images
 pyimage.Methods.show_image(img)
 pyimage.Methods.show_image(gray)
+pyimage.Methods.show_image(sharp)
 ```
-![Original image](/examples/cat.png "Original image")
+![Original image](/examples/cat_resized.png "Original image")
 ![Image on grayscale](/examples/cat_grayscale.png "Image on grayscale")
+![Image sharpened](/examples/cat_sharpened.png "Image sharpened")
 
 ## Dependencies
 - [NumPy](https://numpy.org/) - Adds support for large, multi-dimensional arrays, matrices and high-level mathematical functions to operate on these arrays
