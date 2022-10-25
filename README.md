@@ -42,9 +42,9 @@ pyimage.Methods.show_image(img)
 pyimage.Methods.show_image(gray)
 pyimage.Methods.show_image(sharp)
 ```
-![Original image]([/examples/cat_resized.png](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_resized.png?raw=true) "Original image")
-![Image on grayscale]([/examples/cat_grayscale.png](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_grayscale.png?raw=true) "Image on grayscale")
-![Image sharpened]([/examples/cat_sharpened.png](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_sharpened.png?raw=true) "Image sharpened")
+![Original image](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_resized.png?raw=true "Original image")
+![Image on grayscale](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_grayscale.png?raw=true "Image on grayscale")
+![Image sharpened](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_sharpened.png?raw=true "Image sharpened")
 
 ## Dependencies
 - [NumPy](https://numpy.org/) - Adds support for large, multi-dimensional arrays, matrices and high-level mathematical functions to operate on these arrays
