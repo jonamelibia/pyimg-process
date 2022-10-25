@@ -1,6 +1,6 @@
-# pyimage
+# pyimg-process
 
-The **pyimage** package is a Python library that provides simple and expressive manual image processing techniques. It aims to provide an easy toolkit for begginer users in order to develop their image treatment projects. It is already well on its way towards this goal.
+The **pyimg-process** package is a Python library that provides simple and expressive manual image processing techniques. It aims to provide an easy toolkit for begginer users in order to develop their image treatment projects. It is already well on its way towards this goal.
 
 
 ## Main Features
