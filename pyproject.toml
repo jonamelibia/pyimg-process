@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyimg_process"
-version = "0.0.8"
+version = "0.0.9"
 authors = [
   { name="Mikel Agirrebeitia", email="mikel.agirrebeitia@alumni.mondragon.edu" },
   { name="Jon Amelibia", email="jon.amelibia@alumni.mondragon.edu" },
