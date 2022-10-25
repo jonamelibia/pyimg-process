@@ -1,9 +1,10 @@
 [build-system]
-requires = ["hatchling","opencv-python", "numpy", "matplotlib"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0", "opencv-python","numpy","matplotlib"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "pyimg_process"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
   { name="Mikel Agirrebeitia", email="mikel.agirrebeitia@alumni.mondragon.edu" },
   { name="Jon Amelibia", email="jon.amelibia@alumni.mondragon.edu" },
