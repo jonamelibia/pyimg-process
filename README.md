@@ -26,21 +26,21 @@ pip install pyimage
 ## Usage
 
 ```python
-import pyimage
+import pyimg_process
 
 # loads 'image' from 'path'
-img = pyimage.Methods.read_image('path','image')
+img = pyimg_process.Methods.read_image('path','image')
 
 # converts img to grayscale
-gray = pyimage.Methods.grayscale(img)
+gray = pyimg_process.Methods.grayscale(img)
 
 # sharpen img with a 100x100 kernel
-sharp = pyimage.Methods.sharpen(img, 100)
+sharp = pyimg_process.Methods.sharpen(img, 100)
 
 # displays both images
-pyimage.Methods.show_image(img)
-pyimage.Methods.show_image(gray)
-pyimage.Methods.show_image(sharp)
+pyimg_process.Methods.show_image(img)
+pyimg_process.Methods.show_image(gray)
+pyimg_process.Methods.show_image(sharp)
 ```
 ![Original image](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_resized.png?raw=true "Original image")
 ![Image on grayscale](https://github.com/jonamelibia/pyimg-process/blob/main/examples/cat_grayscale.png?raw=true "Image on grayscale")
