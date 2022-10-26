@@ -1,3 +1,5 @@
+!pip3 install pypandoc
+!pip3 install pathlib
 from distutils.core import setup
 from pathlib import Path
 this_directory = Path(__file__).parent
