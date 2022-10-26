@@ -6,7 +6,7 @@ setup(
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple package for image processing',   # Give a short description about your library
   author = 'Mikel Agirrebeitia & Jon Amelibia',                   # Type in your name
-  author_email = 'mikel.agirrebeitia@alumni.mondragon.edu',      # Type in your E-Mail
+  author_email = 'jon.amelibia@alumni.mondragon.edu',      # Type in your E-Mail
   url = 'https://github.com/jonamelibia/pyimg-process',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/jonamelibia/pyimg-process/archive/refs/tags/1.0.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
