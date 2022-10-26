@@ -8,7 +8,7 @@ long_description = pypandoc.convert_file('README.md', 'rst')
 setup(
   name = 'pyimg_process',         # How you named your package folder (MyLib)
   packages = ['pyimg_process'],   # Chose the same as "name"
-  version = '1.3.1',      # Start with a small number and increase it with every change you make
+  version = '1.3.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple package for image processing',   # Give a short description about your library
   author = 'Mikel Agirrebeitia & Jon Amelibia',                   # Type in your name
