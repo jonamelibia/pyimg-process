@@ -1,5 +1,7 @@
 from distutils.core import setup
-long_description = open('README.md').read()
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
   name = 'pyimg_process',         # How you named your package folder (MyLib)
