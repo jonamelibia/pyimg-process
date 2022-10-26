@@ -1,4 +1,4 @@
-pip3 install pypandoc 
+pip install pypandoc 
 import pypandoc
 long_description = pypandoc.convert_file('README.md', 'rst')
 from distutils.core import setup
