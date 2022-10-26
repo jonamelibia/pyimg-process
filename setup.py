@@ -14,8 +14,8 @@ setup(
   url = 'https://github.com/jonamelibia/pyimg-process',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/jonamelibia/pyimg-process/archive/refs/tags/1.3.3.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
-  long_description_content_type="text/markdown",
   long_description=long_description,
+  long_description_content_type="text/markdown",
   install_requires=[      
           'pypandoc',# I get to this in a second
           'numpy',
