@@ -1,10 +1,16 @@
 from distutils.core import setup
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
+
 setup(
   name = 'pyimg_process',         # How you named your package folder (MyLib)
   packages = ['pyimg_process'],   # Chose the same as "name"
   version = '1.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple package for image processing',   # Give a short description about your library
+  long_description=long_description,
+  long_description_content_type='text/markdown',
   author = 'Mikel Agirrebeitia & Jon Amelibia',                   # Type in your name
   author_email = 'jon.amelibia@alumni.mondragon.edu',      # Type in your E-Mail
   url = 'https://github.com/jonamelibia/pyimg-process',   # Provide either the link to your github or to your website
