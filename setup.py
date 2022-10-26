@@ -15,7 +15,7 @@ setup(
   download_url = 'https://github.com/jonamelibia/pyimg-process/archive/refs/tags/1.3.1.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
   long_description=long_description,
-  long_description_content_type='text/markdown',
+  long_description_content_type=``text/markdown``,
   install_requires=[            # I get to this in a second
           'numpy',
           'matplotlib',
