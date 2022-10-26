@@ -14,7 +14,7 @@ setup(
   author = 'Mikel Agirrebeitia & Jon Amelibia',                   # Type in your name
   author_email = 'jon.amelibia@alumni.mondragon.edu',      # Type in your E-Mail
   url = 'https://github.com/jonamelibia/pyimg-process',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/jonamelibia/pyimg-process/archive/refs/tags/1.3.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/jonamelibia/pyimg-process/archive/refs/tags/1.3.2.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
   long_description_content_type="text/markdown",
   long_description=long_description,
