@@ -18,7 +18,8 @@ setup(
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
   long_description_content_type="text/markdown",
   long_description=long_description,
-  install_requires=[            # I get to this in a second
+  install_requires=[      
+          'pypandoc',# I get to this in a second
           'numpy',
           'matplotlib',
           'opencv-python'
